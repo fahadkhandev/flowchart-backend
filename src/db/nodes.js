@@ -7,7 +7,7 @@
 const initialNodes = [
   {
     id: '1',
-    name: 'Trigger',
+    name: 'Trigger(Fahadtest)',
     type: 'trigger',
     parentId: null,
     data: {
@@ -16,14 +16,14 @@ const initialNodes = [
   },
   {
     id: '2',
-    name: 'Send Message',
+    name: 'Send Message(ok fine)',
     type: 'sendMessage',
     parentId: '1',
     data: {
       payload: [
         {
           type: 'text',
-          text: 'Hello! How can we help you today?',
+          text: 'Hello! How can we help you today? thank you for your patience',
         },
       ],
     },
